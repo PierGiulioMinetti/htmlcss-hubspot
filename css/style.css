@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+DONT' TOUCH DOWN HEREEEEEE
+/* header */
 .header-section-container::after{
   display: table;
   clear: both;
@@ -14,16 +16,6 @@
   height: 10vh;
   background-color: lightgrey;
 }
-.header-top-list{
-  display: inline-block;
-  width: 50%;
-  float: left;
-  height: 5vh;
-  position: absolute;
-  top: 30%;
-  left: 15%;
-  transform:scaleY(-30%);
-}
 .header-section-container{
   /* border: 3px solid red; */
   width: 80%;
@@ -31,41 +23,82 @@
   margin:auto;
   position: relative;
 }
-.header-top-list ul li{
-  display: inline-block;
-  padding: 0 10px;
+DON'T TOUCH UP HEREEEEEE
+  /* HEADER */
+  .grey-wallpaper{
+      width: 100vw;
+      height: 30vh;
+      background-color: slategray;
+  }
+  .header-eighty-prc{
+      width: 80vw;
+      height: 30vh;
 
-}
-.header-top-list ul li:nth-child(2){
-  border-left: 2px solid black;
-}
-.button.class{
-  width: 40%;
-  height:10vh;
-  float: right;
-  line-height: 10vh;
-      padding-left: 70px
-}
-.button.class span{
-  padding: 0 20px;
+      margin:auto;
   }
-  .button.class span:nth-child(2),
-  .button.class span:nth-child(3){
-    border: 2px solid red;
-    padding: 10px 20px;
-    border-radius: 10%;
-    background-color: white;
+  .top-header{
+      width: 80vw;
+      height: 15vh;
   }
-  .button.class span:nth-child(2){
-    color: red;
+  .top-header::after{
+      display: table;
+      content: '';
+      clear: both;
   }
-  .button.class span:nth-child(3){
-    color: white;
-    background-color: red;
+  /* LIST-TOP-HEADER */
+  .list-top-header{
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      background-color: white;
+      float: left;
+      line-height: 15vh;
   }
-  .button.class span:nth-child(1){
-    color: blue;
+  .list-top-header ul li{
+      list-style: none;
+      padding-left: 30px;
+      display: inline-block;
   }
+  .list-top-header ul li:nth-child(2){
+      border-left: 2px solid black;
+      line-height: 20px;
+      margin-left: 10px;
+      font-weight: 400;
+  }
+
+  /* BUTTON-TOP-HEADER */
+  .button-top-header{
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      background-color: white;
+      float: left;
+      line-height: 15vh;
+      padding-left: 70px;
+  }
+  .button-top-header div{
+      display: inline-block ;
+  }
+  .log-in-top-header{
+      color: red;
+      padding: 15px;
+      border:1px solid red;
+      margin: 0 25px 0 50px;
+      border-radius: 5px;
+  }
+  .hub-spot-red-button{
+      color: white;
+      background-color: red;
+      height: 20px;
+      padding: 15px;
+      border-radius: 5px;
+  }
+
+
+
+
+
+
 
   /* header second part */
 
@@ -114,6 +147,7 @@ margin: 30px 5px;
 background-color: red;
 display: inline-block;
 }
+section 3
 .container-100vw{
   width: 100vw;
   height: 100vh;
