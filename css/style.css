@@ -9,3 +9,17 @@
   height: 10vh;
   background-color: grey;
 }
+.header-section-container{
+  border: 3px solid red;
+  width: 80%;
+  height: 100%;
+  margin:auto;
+}
+.header-top-list ul li{
+  display: inline-block;
+
+  line-height: 10vh;
+}
+.header-top-list{
+  position: relative;
+}
