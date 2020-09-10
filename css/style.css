@@ -1,0 +1,36 @@
+/* GENERAL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SECTION 1 */
+.header-main-container{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(187, 190, 206)
+
+}
+.header-menu-button-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.menu-header{
+
+}
+i{
+    padding: 3px;
+}
+.menu.box span:nth-child(2) {
+
+    border-left: 2px solid black;
+}
+.header-main-container .header-menu-button-container .menu.box span{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
