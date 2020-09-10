@@ -56,7 +56,7 @@ DON'T TOUCH UP HEREEEEEE
   }
   .list-top-header ul li{
       list-style: none;
-      padding-left: 30px;
+      padding-left: 100px;
       display: inline-block;
   }
   .list-top-header ul li:nth-child(2){
@@ -74,7 +74,7 @@ DON'T TOUCH UP HEREEEEEE
       background-color: white;
       float: left;
       line-height: 15vh;
-      padding-left: 70px;
+      padding-left: 190px;
   }
   .button-top-header div{
       display: inline-block ;
@@ -93,13 +93,6 @@ DON'T TOUCH UP HEREEEEEE
       padding: 15px;
       border-radius: 5px;
   }
-
-
-
-
-
-
-
   /* header second part */
 
 .header-gray-container .header-section-container .logo,
@@ -147,7 +140,7 @@ margin: 30px 5px;
 background-color: red;
 display: inline-block;
 }
-section 3
+/* section 3 */
 .container-100vw{
   width: 100vw;
   height: 100vh;
@@ -192,4 +185,70 @@ section 3
 }
 .column-section3.margin{
   margin: 0 10vh;
+}
+/* SECTION 4 */
+
+/* section 4 */
+/* top */
+.container-section-4{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 155, 180);
+    position: relative;
+}
+.container-80-section-4{
+    margin:auto;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.section-4-top{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-4-top h2{
+    padding: 20px 0;
+    font-size: 35px;
+    color: white;
+}
+.section-4-top p{
+    padding: 0 10px 20px;
+    font-size: 13px;
+
+}
+
+
+/* section-4-bottom */
+
+.section-4-bottom{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(216, 124, 37);
+}
+/* section-4-table */
+
+
+.section-4-table-bottom::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.section-table-boxes{
+    width: calc(100% / 4);
+    height: 200px;
+    background-color: chartreuse;
+    float: left;
+    line-height: 55px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+.section-4-table-bottom div:last-child{
+    border-right: none;
 }
