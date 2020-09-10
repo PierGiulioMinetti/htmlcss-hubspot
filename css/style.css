@@ -114,3 +114,48 @@ margin: 30px 5px;
 background-color: red;
 display: inline-block;
 }
+.container-100vw{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgrey;
+}
+.container-80vw{
+  width: 80vw;
+  height: 100vh;
+  background-color: grey;
+  margin: auto;
+}
+.container-60vw{
+  width: 60vw;
+  height: 20vh;
+  background-color: red;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+.container-70vw{
+  width: 70vw;
+  height: 20vh;
+  background-color: orange;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+.container-column-section3{
+  width: 70vw;
+  height: 54vh;
+  border: 3px solid green;
+  margin:auto;
+}
+.container-column-section3::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+.column-section3{
+  width: 20vw;
+  height: 100%;
+  background-color:purple;
+  float:left;
+}
+.column-section3.margin{
+  margin: 0 10vh;
+}
