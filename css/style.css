@@ -12,7 +12,7 @@
 .header-gray-container{
   width: 100vw;
   height: 10vh;
-  background-color: grey;
+  background-color: lightgrey;
 }
 .header-top-list{
   display: inline-block;
@@ -25,7 +25,7 @@
   transform:scaleY(-30%);
 }
 .header-section-container{
-  border: 3px solid red;
+  /* border: 3px solid red; */
   width: 80%;
   height: 100%;
   margin:auto;
@@ -34,17 +34,17 @@
 .header-top-list ul li{
   display: inline-block;
   padding: 0 10px;
-  /* line-height: 10vh; */
+
 }
 .header-top-list ul li:nth-child(2){
-  border-left: 1px solid black;
-
+  border-left: 2px solid black;
 }
 .button.class{
   width: 40%;
   height:10vh;
   float: right;
   line-height: 10vh;
+      padding-left: 70px
 }
 .button.class span{
   padding: 0 20px;
@@ -66,3 +66,24 @@
   .button.class span:nth-child(1){
     color: blue;
   }
+
+  /* header second part */
+
+.header-gray-container .header-section-container .logo,
+.header-gray-container .header-section-container .header-menu{
+  float: left;
+  /* border: 2px solid blue; */
+  width: 50%;
+  height: 100%;
+  line-height: 8vh;
+  text-align: center;
+}
+#logo{
+  padding-top: 10px;
+  width: 100px;
+  height: 40px;
+  margin-right: 40px
+}
+.logo{
+  padding-right: 70px;
+}
