@@ -425,3 +425,16 @@ display: inline-block;
 .section-4-table-bottom div:last-child{
     border-right: none;
 }
+.section-table-boxes img{
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+}
+.number-section-4-table{
+  padding-top: 10px;
+  font-size: 45px;
+  font-weight: 800;
+}
+.small-text-section-4-table{
+  font-size: 12px;
+}
