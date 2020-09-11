@@ -292,7 +292,7 @@ display: inline-block;
   color: red;
 }
 .items-column-section3-60prc{
-  background-color: red;
+  background-color: white;
   width: 100%;
   height: 60%;
 }
@@ -305,11 +305,30 @@ display: inline-block;
   width: 200px;
   height: 150px;
   margin: auto;
-  padding-top: 30px;  
+  padding-top: 30px;
   display: block;
+}
+.items-column-section3-60prc h3,
+.items-column-section3-60prc p{
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px;
+  padding: 0 15px 0 15px;
+}
+.items-column-section3-60prc h3{
+  font-size: 30px;
+}
+.items-column-section3-60prc p{
+  font-size: 15px;
+}
+.items-column-section3-60prc hr{
+  border-bottom: 2px solid grey;
+  width: 85%;
+  margin: auto;
+  position: relative;
+  top: 80px;
 
 }
-
 /* style section 3 */
 
 
