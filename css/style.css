@@ -117,12 +117,12 @@ DON'T TOUCH UP HEREEEEEE
 /* SECTION 2 */
 .section-2-container{
   width: 100vw;
-  height: 80vh;
+  height: 84vh;
   border: 3px solid black;
   background-image: url("../img-hubspot/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
 }
 .section-2-box{
   width: 500px;
@@ -147,21 +147,23 @@ display: inline-block;
 .bar-on-container-section-2{
   width: 100vw;
   height: 10vh;
-  background-color: green;
+  position: relative;
+  top: 0px;
+  background-color: #83e8df; /* WARNING:  */
   /* change color in green */
-  border-top: 3px solid red;
-  border-bottom: 3px solid red;
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
 }
 /* section 3 */
 .container-100vw{
   width: 100vw;
-  height: 200vh;  ------------100
-  background-color: darkgrey;
+  height: 200vh;
+  background-color: lightgrey;
 }
 .container-80vw{
   width: 80vw;
   height: 200vh;
-  background-color: grey;
+  /* background-color: grey; */
   margin: auto;
 }
 .container-60vw{
@@ -474,7 +476,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   height: 200px;
   position: relative;
   left: 80px;
-  top: 20px;
+  top: 5px;
 }
 .container-section-5-number h2{
   font-weight: 800;
@@ -509,6 +511,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   float: left;
    /* WARNING: CHANGE HERE */
   position: relative;
+  bottom: 50px;
+  left: 20px;
 }
 .section-5-logo-class{
   width: 90%;
@@ -518,6 +522,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   ; /* WARNING: CHANGE HERE */
   width: 500px;
   height: 370px;
+  position: relative;
+  bottom: 40px;
 }
 .container-section-5-button h3{
   margin-top: 20px;
@@ -548,7 +554,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   width: 270px;
   height: 350px;
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   right: 15vw;
 }
 /* <!-- section 6 --> */
