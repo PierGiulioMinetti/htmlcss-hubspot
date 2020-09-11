@@ -156,7 +156,7 @@ display: inline-block;
 .container-100vw{
   width: 100vw;
   height: 200vh;  ------------100
-  background-color: red;
+  background-color: darkgrey;
 }
 .container-80vw{
   width: 80vw;
@@ -456,20 +456,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 
 /* <!-- section 5 --> */
 .container-section-5-100vw{
-  background-color: red; /* WARNING: CHANGE HERE */
+   /* WARNING: CHANGE HERE */
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   margin-top: 10vh;
 }
 .container-section-5-80vw{
-  background-color: green; /* WARNING: CHANGE HERE */
+  background-color: white; /* WARNING: CHANGE HERE */
   width: 80vw;
-  height: 70vh;
+  height: 80vh;
   margin: auto;
   position: relative;
 }
 .container-section-5-number{
-  background-color: yellow; /* WARNING: CHANGE HERE */
+  background-color: white; /* WARNING: CHANGE HERE */
   width: 200px;
   height: 200px;
   position: relative;
@@ -487,11 +487,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   line-height: 16px;
 }
 .container-section-5-logo{
-  background-color:orange; /* WARNING: CHANGE HERE */
+  background-color:white; /* WARNING: CHANGE HERE */
   width: 800px;
   height: 200px;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 50px;
 }
 .container-section-5-logo-top::after
@@ -503,14 +503,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 
 .item-section-5-logo-top,
 .item-section-5-logo-bottom{
-  background-color: blue;
+  background-color: white;
   width: 200px;
   height: 100px;
   float: left;
-  border: 2px solid red; /* WARNING: CHANGE HERE */
+   /* WARNING: CHANGE HERE */
   position: relative;
 }
 .section-5-logo-class{
   width: 90%;
  margin-top: 30px;
+}
+.container-section-5-button{
+  ; /* WARNING: CHANGE HERE */
+  width: 500px;
+  height: 370px;
+}
+.container-section-5-button h3{
+  margin-top: 20px;
+  padding:10px;
+  font-size: 30px;
+  /* position: relative;
+  top: 20px; */
+}
+.container-section-5-button p{
+  padding: 10px;
+}
+.red-button-section-5{
+  background-color: red;
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+}
+.container-section-5-button p:last-child{
+  padding-top: 30px;
+  font-size: 12px;
+}
+#img-section-5{
+  width: 270px;
+  height: 350px;
+  position: absolute;
+  top: 30vh;
+  right: 15vw;
+}
+/* <!-- section 6 --> */
+.container-section-6-100vw{
+  background-color: blue;
+  width: 100vw;
+  height: 65vh;
+}
+.container-section-6-80vw{
+  background-color: green;
+  width: 80vw;
+  height: 65vh;
+  margin: auto;
 }
