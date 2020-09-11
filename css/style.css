@@ -469,11 +469,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 }
 .container-section-5-number{
   background-color: yellow;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: relative;
   left: 80px;
   top: 20px;
+}
+.container-section-5-number h2{
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+.container-section-5-number p{
+  font-size: 13px;
+  padding: 0 10px 0 10px;
+  line-height: 16px;
 }
 .container-section-5-logo{
   background-color:orange;
@@ -500,9 +510,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   position: relative;
 }
 .section-5-logo-class{
-  width: 100%;
-  /* position: absolute;
-  top: 40%;
-  transform: translateY(-40%;); */
-  margin-top: 30px;
+  width: 90%;
+ margin-top: 30px;
 }
