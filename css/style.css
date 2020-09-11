@@ -452,3 +452,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 .section-table-boxes div {
   color: white;
 }
+
+/* <!-- section 5 --> */
+.container-section-5-100vw{
+  background-color: red;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 10vh;
+}
+.container-section-5-80vw{
+  background-color: green;
+  width: 80vw;
+  height: 70vh;
+  margin: auto;
+  position: relative;
+}
+.container-section-5-number{
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 80px;
+  top: 20px;
+}
+.container-section-5-logo{
+  background-color:orange;
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.container-section-5-logo-top::after
+.container-section-5-logo-bottom::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.item-section-5-logo-top,
+.item-section-5-logo-bottom{
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 2px solid red;
+  position: relative;
+}
+.section-5-logo-class{
+  width: 100%;
+  /* position: absolute;
+  top: 40%;
+  transform: translateY(-40%;); */
+  margin-top: 30px;
+}
