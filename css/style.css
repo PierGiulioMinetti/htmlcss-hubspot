@@ -401,6 +401,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 .section-4-top p{
     padding: 0 10px 20px;
     font-size: 13px;
+    color: white;
 
 }
 
@@ -455,20 +456,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 
 /* <!-- section 5 --> */
 .container-section-5-100vw{
-  background-color: red;
+  background-color: red; /* WARNING: CHANGE HERE */
   width: 100vw;
   height: 70vh;
   margin-top: 10vh;
 }
 .container-section-5-80vw{
-  background-color: green;
+  background-color: green; /* WARNING: CHANGE HERE */
   width: 80vw;
   height: 70vh;
   margin: auto;
   position: relative;
 }
 .container-section-5-number{
-  background-color: yellow;
+  background-color: yellow; /* WARNING: CHANGE HERE */
   width: 200px;
   height: 200px;
   position: relative;
@@ -486,7 +487,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   line-height: 16px;
 }
 .container-section-5-logo{
-  background-color:orange;
+  background-color:orange; /* WARNING: CHANGE HERE */
   width: 800px;
   height: 200px;
   position: absolute;
@@ -506,7 +507,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   width: 200px;
   height: 100px;
   float: left;
-  border: 2px solid red;
+  border: 2px solid red; /* WARNING: CHANGE HERE */
   position: relative;
 }
 .section-5-logo-class{
