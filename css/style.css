@@ -223,13 +223,30 @@ display: inline-block;
   float: left;
   width: 30%;
   height: 100%;
-  background-color: red;
+  background-color: blue;
 }
 .item-70prc-container70vw{
   float: left;
   width: 70%;
   height: 100%;
   background-color: green;
+}
+.item-30prc-container70vw img{
+  display: block;
+  width: 170px;
+  height: 120px;
+  margin: auto;
+  padding-top: 30px;
+}
+.red-button-class{
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 30px auto;
+  background-color: red;
+  text-align: center;
+  width: 60%;
+  height: 55px;
 }
 
 /* SECTION 4 */
