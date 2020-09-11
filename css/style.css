@@ -117,8 +117,11 @@ DON'T TOUCH UP HEREEEEEE
 .section-2-container{
   width: 100vw;
   height: 80vh;
-  background-color: orange;
   border: 3px solid black;
+  background-image: url("../img-hubspot/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section-2-box{
   width: 500px;
@@ -126,7 +129,7 @@ DON'T TOUCH UP HEREEEEEE
   border: 3px solid black;
   position: relative;
   top: 10px;
-  left: 100px;
+  left: 150px;
   padding: 10px;
 }
 .section-2-container .section-2-box h1{
@@ -140,35 +143,43 @@ margin: 30px 5px;
 background-color: red;
 display: inline-block;
 }
+.bar-on-container-section-2{
+  width: 100vw;
+  height: 10vh;
+  background-color: green;
+  /* change color in green */
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
 /* section 3 */
 .container-100vw{
   width: 100vw;
-  height: 100vh;
-  background-color: lightgrey;
+  height: 200vh;  ------------100
+  background-color: red;
 }
 .container-80vw{
   width: 80vw;
-  height: 100vh;
+  height: 200vh;
   background-color: grey;
   margin: auto;
 }
 .container-60vw{
   width: 60vw;
-  height: 20vh;
+  height: 40vh;
   background-color: red;
   margin: auto;
   margin-bottom: 3vh;
 }
 .container-70vw{
   width: 70vw;
-  height: 20vh;
+  height: 40vh;
   background-color: orange;
   margin: auto;
   margin-bottom: 3vh;
 }
 .container-column-section3{
   width: 70vw;
-  height: 54vh;
+  height: 108vh; ------------
   border: 3px solid green;
   margin:auto;
 }
