@@ -322,11 +322,37 @@ display: inline-block;
   font-size: 15px;
 }
 .items-column-section3-60prc hr{
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid black;
   width: 85%;
   margin: auto;
   position: relative;
   top: 80px;
+}
+.items-column-section3-40prc ul li{
+  list-style: none;
+  margin-left: 15px;
+}
+.items-column-section3-40prc ul{
+  padding-top: 30px;
+}
+
+.items-column-section3-40prc h3{
+  text-align: center;
+  padding: 10px ;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.learn-more-button{
+  display: inline-block;
+  border: 3px solid red;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  margin: 80px 58px 0 58px;
+  line-height: 74px;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
 
 }
 /* style section 3 */
