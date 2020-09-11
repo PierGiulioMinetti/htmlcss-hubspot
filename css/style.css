@@ -167,16 +167,18 @@ display: inline-block;
 .container-60vw{
   width: 60vw;
   height: 40vh;
-  background-color: red;
+  background-color: lightgrey;
   margin: auto;
   margin-bottom: 3vh;
+  border-radius: 5px;
 }
 .container-70vw{
   width: 70vw;
   height: 40vh;
-  background-color: orange;
+  background-color: white;
   margin: auto;
   margin-bottom: 3vh;
+  border-radius: 5px;
 }
 .container-column-section3{
   width: 70vw;
@@ -194,11 +196,11 @@ display: inline-block;
   height: 100%;
   background-color:purple;
   float:left;
+  border-radius: 5px;
 }
 .column-section3.margin{
   margin: 0 10vh;
 }
-/* style section 3 */
 .container-60vw img{
   display: block;
   margin: 0 auto;
@@ -223,13 +225,13 @@ display: inline-block;
   float: left;
   width: 30%;
   height: 100%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .item-70prc-container70vw{
   float: left;
   width: 70%;
   height: 100%;
-  background-color: green;
+  /* background-color: green; */
 }
 .item-30prc-container70vw img{
   display: block;
@@ -248,6 +250,68 @@ display: inline-block;
   width: 60%;
   height: 55px;
 }
+.item-70prc-container70vw h2,
+.item-70prc-container70vw h3,
+.item-70prc-container70vw hr,
+.item-70prc-container70vw p{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.item-70prc-container70vw h3,
+.item-70prc-container70vw hr{
+  display: inline-block;
+}
+#signature{
+  width: 300px;
+  border-bottom: 2px solid black;
+  border-top:0;
+  border-left: 0;
+  border-right:0;
+  margin-left: 50px;
+}
+.container-tick-box-section3::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.items-container-tick-box-section3{
+  float: left;
+  width: calc(50% / 3);
+  height: 100px;
+  /* background-color: green; */
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.fas.fa-check-circle{
+  background-color: white;
+  color: red;
+}
+.items-column-section3-60prc{
+  background-color: red;
+  width: 100%;
+  height: 60%;
+}
+.items-column-section3-40prc{
+  background-color: green;
+  width: 100%;
+  height: 40%;
+}
+.mrkt-hub{
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  padding-top: 30px;  
+  display: block;
+
+}
+
+/* style section 3 */
+
 
 /* SECTION 4 */
 
@@ -258,6 +322,7 @@ display: inline-block;
     height: 100vh;
     background-color: rgb(12, 155, 180);
     position: relative;
+
 }
 .container-80-section-4{
     margin:auto;
