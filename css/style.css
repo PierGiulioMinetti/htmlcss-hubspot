@@ -214,6 +214,23 @@ display: inline-block;
   font-size: 15px;
   text-align: center;
 }
+.container-70vw::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.item-30prc-container70vw{
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+.item-70prc-container70vw{
+  float: left;
+  width: 70%;
+  height: 100%;
+  background-color: green;
+}
 
 /* SECTION 4 */
 
