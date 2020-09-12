@@ -5,120 +5,108 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-DONT' TOUCH DOWN HEREEEEEE
-/* header */
-.header-section-container::after{
+.section-one-header-container-100vw{
+  background-color:  rgb(211, 211, 211);
+  width: 100vw;
+  height: 15vh;
+
+}
+.section-one-header-container-80vw{
+  background-color: rgb(211, 211, 211);
+  width: 80vw;
+  height: 15vh;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+..section-one-header-container-80vw::after{
   display: table;
+  content: '';
   clear: both;
+}
+.section-one-header-content{
+  /* background-color: purple; */
+  width: 30%;
+  height: 100%;
+}
+.section-one-header-content.lft{
+  float: left;
+}
+.section-one-header-content.rgt{
+  float: right;
+  position: relative;
+  line-height: 15vh;
+}
+.section-one-header-content.lft span{
+  line-height: 106px;
+}
+.section-one-header-content.lft span:nth-child(2){
+  margin-left: 10px;
+  border-left: 2px solid black;
+  padding-left: 30px;
+}
+.section-one-header-content.rgt::after{
+  clear: both;
+  display: table;
   content: '';
 }
-.header-gray-container{
-  width: 100vw;
-  height: 10vh;
-  background-color: lightgrey;
-}
-.header-section-container{
-  /* border: 3px solid red; */
-  width: 80%;
-  height: 100%;
-  margin:auto;
-  position: relative;
-}
-DON'T TOUCH UP HEREEEEEE
-  /* HEADER */
-  .grey-wallpaper{
-      width: 100vw;
-      height: 30vh;
-      background-color: slategray;
-  }
-  .header-eighty-prc{
-      width: 80vw;
-      height: 30vh;
-
-      margin:auto;
-  }
-  .top-header{
-      width: 80vw;
-      height: 15vh;
-  }
-  .top-header::after{
-      display: table;
-      content: '';
-      clear: both;
-  }
-  /* LIST-TOP-HEADER */
-  .list-top-header{
-      display: inline-block;
-      width: 50%;
-      height: 100%;
-      background-color: white;
-      float: left;
-      line-height: 15vh;
-  }
-  .list-top-header ul li{
-      list-style: none;
-      padding-left: 100px;
-      display: inline-block;
-  }
-  .list-top-header ul li:nth-child(2){
-      border-left: 2px solid black;
-      line-height: 20px;
-      margin-left: 10px;
-      font-weight: 400;
-  }
-
-  /* BUTTON-TOP-HEADER */
-  .button-top-header{
-      display: inline-block;
-      width: 50%;
-      height: 100%;
-      background-color: white;
-      float: left;
-      line-height: 15vh;
-      padding-left: 190px;
-  }
-  .button-top-header div{
-      display: inline-block ;
-  }
-  .log-in-top-header{
-      color: red;
-      padding: 15px;
-      border:1px solid red;
-      margin: 0 25px 0 50px;
-      border-radius: 5px;
-  }
-  .hub-spot-red-button{
-      color: white;
-      background-color: red;
-      height: 20px;
-      padding: 15px;
-      border-radius: 5px;
-  }
-  /* header second part */
-
-.header-gray-container .header-section-container .logo,
-.header-gray-container .header-section-container .header-menu{
+.section-one-header-search,
+.section-one-header-log-in,
+.section-one-header-get-hub{
   float: left;
-  /* border: 2px solid blue; */
-  width: 50%;
+}
+.section-one-header-search{
+  /* background-color: orange; */
+  color: rgb(17, 129, 221);
+  width: 10%;
   height: 100%;
-  line-height: 8vh;
+  font-size: 17px;
+  position: relative;
+  left: 80px;
+  line-height: 15vh;
+}
+.section-one-header-log-in{
+  background-color: white;
+  width: 20%;
+  height: 55px;
+  position: relative;
+  top: 20px;
+  left:10px;
+  border-radius: 5px;
   text-align: center;
+  line-height: 55px;
+  color: red;
+  border: 1px solid red;
+  margin-left: 70px;
+
 }
-#logo{
-  padding-top: 10px;
-  width: 100px;
-  height: 40px;
-  margin-right: 40px
+.section-one-header-get-hub{
+  background-color: rgb(206, 11, 11);
+  width: 40%;
+  height: 55px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 55px;
+  color: white;
+  margin-left: 10px;
 }
-.logo{
-  padding-right: 70px;
+#logo-header{
+  line-height: 15vh;
 }
+.section-one-header-content.rgt ul li{
+  display: inline-block;
+  margin-right: 3px;
+  font-size: 13px;
+}
+/* SECTION ONE UP HERE */
+
 /* SECTION 2 */
 .section-2-container{
   width: 100vw;
-  height: 80vh;
-  border: 3px solid black;
+  height: 79vh;
+
   background-image: url("../img-hubspot/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,8 +139,8 @@ display: inline-block;
   top: 0px;
   background-color: #83e8df; /* WARNING:  */
   /* change color in green */
-  border-top: 1px solid black;
-  border-bottom: 3px solid black;
+  border-top: 5px solid #1f2724;
+  border-bottom: 5px solid #1f2724;
 }
 /* section 3 */
 .container-100vw{
@@ -184,8 +172,8 @@ display: inline-block;
 }
 .container-column-section3{
   width: 70vw;
-  height: 108vh; ------------
-  border: 3px solid green;
+  height: 108vh;
+
   margin:auto;
 }
 .container-column-section3::after{
@@ -327,6 +315,9 @@ display: inline-block;
 }
 .items-column-section3-60prc hr{
   border-bottom: 2px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
   width: 85%;
   margin: auto;
   position: relative;
