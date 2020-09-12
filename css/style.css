@@ -489,6 +489,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   top: 5px;
   right: 50px;
 }
+.move-up{
+  padding-bottom: 10px;/* WARNING:  */
+  position: relative;  /* WARNING:  */
+  bottom: 15px;        /* WARNING:  */
+}
+.move-down{
+  position:relative;    /* WARNING:  */
+  top: 5px;
+}
+.subaru{
+  position: relative;
+  bottom: 5px;
+}
 .container-section-5-logo-top::after
 .container-section-5-logo-bottom::after{
   content: '';
