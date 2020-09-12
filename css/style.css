@@ -117,7 +117,7 @@ DON'T TOUCH UP HEREEEEEE
 /* SECTION 2 */
 .section-2-container{
   width: 100vw;
-  height: 84vh;
+  height: 80vh;
   border: 3px solid black;
   background-image: url("../img-hubspot/jumbotron.png");
   background-size: cover;
@@ -557,6 +557,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   top: 25vh;
   right: 15vw;
 }
+
+
 /* <!-- section 6 --> */
 .container-section-6-100vw{
   background-color: blue;
@@ -568,4 +570,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   width: 80vw;
   height: 65vh;
   margin: auto;
+}
+.container-section-6-boxes-container{
+  background-color: yellow;
+  height: 70%;
+  width: 90%;
+}
+.container-section-6-boxes-container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container-section-6-boxes{
+  background-color: red; /* WARNING:  */
+  width: calc(90% / 4);
+  height: 90%;
+  float: left;
+  border: 1px solid black;  /* WARNING:  */
+  margin-left: 20px;
+}
+#box-section-6-no-margin{
+  margin-left: 0;
+}
+.container-section-6-boxes ul li{
+list-style: none;
+line-height: 25px;
+}
+#box-section-6-last-box{
+  height: 100%;
 }
