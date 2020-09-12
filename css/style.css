@@ -595,7 +595,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
 .container-section-6-boxes ul li{
 list-style: none;
 line-height: 25px;
+font-size: 15px;
+padding: 5px 5px 0 5px;
 }
 #box-section-6-last-box{
   height: 100%;
+}
+.button-last-boxes-section-6{
+  background-color: lightgrey;
+  width: 95%;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 40px;
+  margin: 10px 0 0 5px;
+  text-align:center;
+}
+.section-6-last-box-icon-container{
+  margin-top: 10px;
+  background-color: orange;
+  width: 100%;
+  height: 30px;
+}
+.section-6-last-box-icon{
+  padding: 9px;
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+
 }
