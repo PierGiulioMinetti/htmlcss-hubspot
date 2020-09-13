@@ -162,6 +162,10 @@ margin: 30px 5px;
 background-color: red;
 display: inline-block;
 }
+.section-2.red-button:hover{
+  animation-name: redbutton;
+  animation-duration: 5s;
+}
 .bar-on-container-section-2{
   width: 100vw;
   height: 10vh;
@@ -382,12 +386,8 @@ display: inline-block;
   background-color: red;
 
 }
-/* style section 3 */
-
 
 /* SECTION 4 */
-
-/* section 4 */
 /* top */
 .container-section-4{
     width: 100vw;
@@ -584,6 +584,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   text-align: center;
   line-height: 70px;
 }
+.red-button-section-5:hover{
+  animation-name: redbutton;
+  animation-duration: 5s;
+}
 .container-section-5-button p:last-child{
   padding-top: 30px;
   font-size: 12px;
@@ -625,7 +629,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   height: 90%;
   float: left;
   border: 1px solid #132755;  /* WARNING:  */
-  margin-left: 50px;
+  margin-left: 70px;
 }
 #box-section-6-no-margin{
   margin-left: 0;
