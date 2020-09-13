@@ -5,11 +5,14 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  text-decoration: none;
+  a:visited{ color: gray }
+}
 .section-one-header-container-100vw{
   background-color:  rgb(211, 211, 211);
   width: 100vw;
   height: 15vh;
-
 }
 .section-one-header-container-80vw{
   background-color: rgb(211, 211, 211);
@@ -18,7 +21,7 @@
   /* border: 1px solid black; */
   margin: auto;
 }
-..section-one-header-container-80vw::after{
+.section-one-header-container-80vw::after{
   display: table;
   content: '';
   clear: both;
@@ -81,7 +84,35 @@
   color: red;
   border: 1px solid red;
   margin-left: 70px;
+}
+.section-one-header-log-in{
+    transition: transform 3s;
+}
+.section-one-header-log-in:hover{
 
+  transform: rotateY(5.turn);
+
+  animation-duration: 4s;
+}
+@keyframes login {
+
+}
+.section-one-header-get-hub:hover{
+  animation-name: redbutton;
+  animation-duration: 5s;
+}
+@keyframes redbutton {
+  0% {background-color: red; color:white;}
+  25% {background-color: white; color:red;}
+  50% {background-color: green; color:white;}
+  75% {background-color: white; color:red;}
+  100% {background-color: red; color:white;}
+}
+.fas.fa-search{
+  transition: 0.3 ease;
+}
+.fas.fa-search:hover{
+  transform:scale(1.5);
 }
 .section-one-header-get-hub{
   background-color: rgb(206, 11, 11);
@@ -565,7 +596,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75bdd1', end
   height: 350px;
   position: absolute;
   top: 25vh;
-  right: 15vw;
+  right: 3vw;
 }
 
 
