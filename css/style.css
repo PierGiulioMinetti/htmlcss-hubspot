@@ -144,6 +144,9 @@ a{
 #logo-header{
   line-height: 15vh;
 }
+#logo-header:hover{
+  cursor: pointer;
+}
 .section-one-header-content.rgt ul li{
   display: inline-block;
   margin-right: 3px;
