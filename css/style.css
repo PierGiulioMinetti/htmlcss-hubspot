@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 a{
   text-decoration: none;
   a:visited{ color: gray }
@@ -88,15 +91,7 @@ a{
 .section-one-header-log-in{
     transition: transform 3s;
 }
-.section-one-header-log-in:hover{
 
-  transform: rotateY(5.turn);
-
-  animation-duration: 4s;
-}
-@keyframes login {
-
-}
 .section-one-header-get-hub:hover{
   animation-name: redbutton;
   animation-duration: 5s;
@@ -171,17 +166,19 @@ display: inline-block;
   width: 100vw;
   height: 10vh;
   position: relative;
-  top: 0px;
+  top: -12px;
   background-color: #83e8df; /* WARNING:  */
   /* change color in green */
   border-top: 5px solid #1f2724;
   border-bottom: 5px solid #1f2724;
+  margin-bottom: 0;
 }
 /* section 3 */
 .container-100vw{
   width: 100vw;
   height: 200vh;
   background-color: lightgrey;
+  margin-top: -12px;
 }
 .container-80vw{
   width: 80vw;
