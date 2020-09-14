@@ -124,6 +124,10 @@ a{
 .fas.fa-search{
   transition: 0.3 ease;
 }
+.fa-angle-down{
+  position: relative;
+  top: 1px;
+}
 .fas.fa-search:hover{
   transform:scale(1.5);
   cursor: pointer;
