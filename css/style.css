@@ -766,6 +766,12 @@ a {
     margin: 40px 0 40px 0;
 }
 
+.section-5-btn:hover {
+    animation-name: redbutton;
+    animation-duration: 5s;
+    cursor: pointer;
+}
+
 #woman-pic {
     width: 380px;
     height: 450px;
